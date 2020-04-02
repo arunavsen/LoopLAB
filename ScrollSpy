@@ -1,3 +1,11 @@
+1st Step: Give an id to body which has to written in data-target.
+            ex. <body data-spy="scroll" data-target="#main-nav" id="home">
+    
+2nd Step: Copy the Data-toogle id and paste it in the nav.
+          ex.  <nav id="main-nav" class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+
+3rd Step: Paste the below code in the script tag.
+
 //Smooth Scrolling
     $("#main-nav a").on('click',function(event){
         if(this.hash !== ""){
